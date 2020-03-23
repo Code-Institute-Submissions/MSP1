@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat|PT+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------------------------Colours/Fonts/Sizing/Alignment */
+body{
+    background-color: #252627;
+}
+
+.bg-dark{
+    background-color: #181818 !important;
+}
+ nav li a{
+     color: #707070 !important;
+     text-transform: uppercase;
+     font-family: "Monsterrat", sans-serif;
+     font-size: 14px;
+     padding-right: 30px;
+ }
+
+ .navbar-brand{
+     color: #707070 !important;
+     font-weight: 700;
+     font-size: 36px;
+     font-family: "PT Sans", sans-serif;
+     padding-left: 20px;
+     letter-spacing: 4px;
+ }
+
+
+ .main-content{
+    color: #fafafa;
+    font-family: "PT Sans", sans-serif;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    /*padding-left: 90px;*/
+    padding-top: 120px;
+    /* align-items: center; */
+    /* transform: translateX(7%) translateY(18%); */
+ }
+
+ .heading-text{
+     font-size: 50px;
+     line-height: 140%;
+     font-weight: 700;
+     letter-spacing: 2px;
+ }
+
+ .underwriting{
+     font-size: 18px;
+     color: #707070;
+     word-spacing: 10px;
+     justify-content: center;
+     text-align: center;
+ }
+
+    /* .logo{
+     display: flex;
+     position: absolute;
+     transform: translateX(280%) translateY(-150%); 
+     height: 200px;
+     width: 350px;
+ }  */
+
+ hr{
+     height: 2px;
+     width: 120px;
+     background-color: #181818;
+ }
+
+ .contact-button{
+     margin-top: 40px;
+     height: 45px;
+     width: 150px;
+     text-transform: uppercase;
+     background-color: transparent;
+     border: 3px solid #00b3ff;
+     color: #00b3ff;
+     border-radius: 0;
+     letter-spacing: 2px;
+     position: relative;
+     -webkit-transition: all 0.5s ease-in-out;
+ }
+
+ .arrow-link{
+     display: block;
+     clear: both;
+     margin-top: 50px;
+     font-size: 45px;
+     text-decoration: none;
+ }
+
+ .arrow-link i{
+     color: #fafafa;
+ }
+ 
+.about-content-section{
+    height: 100vh;
+    margin-top: 100px;
+}
+
+ .about-heading{
+     color: #707070;
+     font-size: 100px;
+     opacity: .3;
+     z-index: 0;
+     padding-left: 20px;
+ }
+
+ .about-me-info{
+     max-width: 900px;
+     background-color: #252627;
+     box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+     padding: 50px;
+     margin-top: 50px;
+     /* position: relative; */
+    /*  top: 70px; */
+     /* left: 30%;
+     right: 50%; */
+     z-index: 1;
+     color: #707070;
+ }
+
+/* .about-me-info p{
+    color: #707070;
+} */
+
+/* ------------------------------Nav Bar */
+
+ .nav-item{
+     padding-right: 10px;
+ }
+
+
+ .nav-container{
+     padding-right: 35px;
+ }
+
+/* ------------------------------Main Content */
+
+ .main-content-section{
+     height: 100vh;
+ }
+
+
+ 
+
+ /* ------------------------------Animation (source Youtube) */
+
+ .heading-text span{
+     letter-spacing: -10px;
+     animation: animate 2s linear infinite;
+ }
+
+ .heading-text span:nth-child(1){
+     animation-delay: 0s;
+ }
+ .heading-text span:nth-child(2){
+     animation-delay: 0.25s;
+ }
+ .heading-text span:nth-child(3){
+     animation-delay: 0.5s;
+ }
+ .heading-text span:nth-child(4){
+     animation-delay: 0.75s;
+ }
+ .heading-text span:nth-child(5){
+     animation-delay: 1s;
+ }
+ .heading-text span:nth-child(6){
+     animation-delay: 1.25s;
+ }
+
+ @keyframes animate{
+     0%,100%{
+         color: #fff;
+         filter: blur(2px);
+         text-shadow: 0 0 10px #00b3ff,
+                     0 0 20px #00b3ff,
+                     0 0 40px #00b3ff,
+                     0 0 80px #00b3ff,
+                     0 0 120px #00b3ff;
+     }
+
+     5%,95%{
+         color: #fff;
+         filter: blur(0px);
+         text-shadow: none;
+     }
+ }
+
+
+/* ------------------------------Hover */
+
+.contact-button:hover{
+    color: #00b3ff;
+    background-color: #181818;
+    -webkit-transform: scale(1.1);
+}
+
+/* ------------------------------Media Query */
+
+/* @media (max-width: 768px) {
+      .col-xs-12.text-right, .col-xs-12.text-left {
+              text-align: center !important;
+       } 
+    } */
