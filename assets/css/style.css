@@ -91,7 +91,7 @@ body{
 .about-content-section{
     height: 100vh;
     margin-top: 100px;
-    padding-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .skills-heading,
@@ -103,10 +103,12 @@ body{
      padding-left: 20px;
  }
 
+.skills-container,
 .about-me-info-container{
     display: flex;
     justify-content: center;
 }
+
 .skills-info,
  .about-me-info{
      max-width: 900px;
@@ -123,6 +125,10 @@ body{
 .skills-content-section{
     height: 100vh;
     margin-top: 100px;
+}
+
+.progress-bar{
+    background-color: #00b3ff;
 }
 
 /* .skills-heading{
