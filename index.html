@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Website Built using BootStrap www.getbootstrap.com -->
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
 <body>
 	<!-- NavBar -->
 	<!-- Acquired from bootstrap documentation -->
-	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
 		<a class="navbar-brand" href="#">Aidan</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -39,6 +40,7 @@
 			</ul>
 		</div>
 	</nav>
+
 	<!-- Main Content -->
 
 	<div class="container-fluid main-content main-content-section">
@@ -64,7 +66,8 @@
 	</div>
 
 	<hr>
-    <!-- About Section -->
+	<!-- About Section -->
+    <section>
 	<a id="about">
 		<div class="container-fluid about-content-section about-content">
 			<div class="row">
@@ -89,44 +92,46 @@
 			</div>
 		</div>
 	</a>
+    </section>
 
 	<hr>
 
-    <!-- Skills Section -->
+	<!-- Skills Section -->
+    <section>
 	<a id="skills">
 		<div class="container-fluid skills-content-section skills-content">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="skills-heading">Skills</h2>
 					<p class="skills-info">
-
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum
 					</p>
-                    <!-- Progress Bar Acquired from bootstrap Documentation -->
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-							aria-valuemax="100"></div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
-							aria-valuemin="0" aria-valuemax="100">25%</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-							aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-							aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-							aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
+					<!-- Progress Bar Acquired from bootstrap Documentation -->
+					<div class="bar-container">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+								aria-valuemin="0" aria-valuemax="100"></div>
+							<span class="subject">HTML / HTML5</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+								aria-valuemin="0" aria-valuemax="100"></div>
+							<span class="subject">CSS / CSS3</span>
+						</div>
 
+					</div>
 				</div>
 			</div>
 		</div>
+
 	</a>
+    </section>
 </body>
 
 </html>

@@ -89,10 +89,12 @@ body{
  }
  
 .about-content-section{
-    height: 85vh;
+    height: 100vh;
     margin-top: 100px;
+    padding-bottom: 300px;
 }
 
+.skills-heading,
  .about-heading{
      color: #707070;
      font-size: 100px;
@@ -105,6 +107,7 @@ body{
     display: flex;
     justify-content: center;
 }
+.skills-info,
  .about-me-info{
      max-width: 900px;
      background-color: #252627;
@@ -118,17 +121,17 @@ body{
  }
 
 .skills-content-section{
-    height: 85vh;
+    height: 100vh;
     margin-top: 100px;
 }
 
-.skills-heading{
+/* .skills-heading{
     color: #707070;
      font-size: 100px;
      opacity: .3;
      z-index: 0;
      padding-left: 20px;
-}
+} */
 
 /* ------------------------------Nav Bar */
 
@@ -210,3 +213,26 @@ body{
 
        
     } 
+
+/* ------------------------------Skills */
+
+.bar-container{
+    margin: 40px 40px;
+}
+
+.progress{
+    position: relative;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.subject{
+    position: absolute;
+    left: 0;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 4px 30px 4px 20px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
