@@ -6,7 +6,7 @@ html{
 
 /* ------------------------------Colours/Fonts/Sizing/Alignment */
 body{
-    background-color: #252627;
+    background-color: green /* #252627 */;
 }
 
 .bg-dark{
@@ -89,9 +89,9 @@ body{
  }
  
 .about-content-section{
-    height: 100vh;
+    height: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    /* display: inline; */
 }
 
 .skills-heading,
@@ -123,8 +123,9 @@ body{
  }
 
 .skills-content-section{
-    height: 100vh;
+    height: auto;
     margin-top: 100px;
+    /* display: inline; */
 }
 
 .progress-bar{
@@ -153,7 +154,7 @@ body{
 /* ------------------------------Main Content */
 
  .main-content-section{
-     height: 100vh;
+     height: auto;
  }
 
 
@@ -241,4 +242,15 @@ body{
     padding: 4px 30px 4px 20px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
+}
+
+/* ------------------------------Skills */
+
+/* .footer-container{
+    display: flex;
+    justify-content: center;
+} */
+
+.social-links li i{
+    text-align: center;
 }
