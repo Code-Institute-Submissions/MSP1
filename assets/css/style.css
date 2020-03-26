@@ -6,7 +6,7 @@ html{
 
 /* ------------------------------Colours/Fonts/Sizing/Alignment */
 body{
-    background-color: green /* #252627 */;
+    background-color: #252627;
 }
 
 .bg-dark{
@@ -213,13 +213,15 @@ body{
     -webkit-transform: scale(1.1);
 }
 
+.social-links li i:hover{
+    transform: scale(1.2);
+    color: #00b3ff;
+}
+
 /* ------------------------------Media Query */
 
-@media (max-width: 768px) {
 
-
-       
-    } 
+ 
 
 /* ------------------------------Skills */
 
@@ -244,13 +246,19 @@ body{
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-/* ------------------------------Skills */
+/* ------------------------------Footer */
 
-/* .footer-container{
-    display: flex;
-    justify-content: center;
-} */
+.footer-container{
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 25px;
+}
 
 .social-links li i{
-    text-align: center;
+    color: #707070;
+}
+
+.social-links li i:hover{
+    transform: scale(1.2);
+    color: #00b3ff;
 }
