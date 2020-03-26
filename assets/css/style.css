@@ -95,7 +95,8 @@ body{
 }
 
 .skills-heading,
- .about-heading{
+ .about-heading,
+ .my-work-heading{
      color: #707070;
      font-size: 100px;
      opacity: .3;
@@ -220,7 +221,11 @@ body{
 
 /* ------------------------------Media Query */
 
-
+/* @media screen and (max-with:768px){
+    .my-work-container{
+        text-align: center;
+    }
+} */
  
 
 /* ------------------------------Skills */
@@ -245,6 +250,19 @@ body{
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
+
+
+/* ------------------------------My Work */
+.my-work-container{
+    padding: 20px;
+    height: auto;
+}
+
+.card-container{
+    padding: 40px 0;
+    align-content: center;
+}
+
 
 /* ------------------------------Footer */
 
