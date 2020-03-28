@@ -224,6 +224,11 @@ body{
     color: #00b3ff;
 }
 
+.card:hover{
+    transform: scale(1.1);
+    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.25); */
+}
+
 /* ------------------------------Media Query */
 
 /* @media screen and (max-with:768px){
@@ -268,12 +273,21 @@ body{
     align-items: center;
 }
 
+.card-body{
+    background-color: #181818;
+    color: #707070;
+}
+
+.card{
+    border: none !important;
+}
+
 
 /* ------------------------------Footer */
 
 .footer-container{
     text-align: center;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     font-size: 25px;
 }
 
