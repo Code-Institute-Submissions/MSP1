@@ -152,6 +152,11 @@ body{
      padding-right: 35px;
  }
 
+ .navbar-collapse{
+     padding-left:40px;
+     text-align: center;
+ }
+
 /* ------------------------------Main Content */
 
  .main-content-section{
@@ -260,7 +265,7 @@ body{
 
 .card-container{
     padding: 40px 35px;
-    align-content: center;
+    align-items: center;
 }
 
 
