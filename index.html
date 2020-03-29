@@ -36,7 +36,10 @@
 					<a class="nav-link" href="#skills">Skills</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">My Work</a>
+					<a class="nav-link" href="#my-work">My Work</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#contact">Contact Me</a>
 				</li>
 			</ul>
 		</div>
@@ -56,7 +59,9 @@
 					,<br>Full Stack Developer.</h1>
 					<p class="underwriting">HTML / CSS </p>
 
-					<a href="#contact" class="btn contact-button" role="button">Contact Me</a>
+					<button class="btn contact-button" data-toggle="modal" data-target="#contactModal">Contact Me</button>
+
+					<!-- <a href="#contact" class="btn contact-button" role="button">Contact Me</a> -->
 
 					<div class="arrow-link">
 						<a href="#about"><i class="fas fa-chevron-down"></i></a>
@@ -148,84 +153,93 @@
 	<hr>
 
 	<!-- My Work -->
-    <section>
-	<a id="my-work">
-		<div class="my-work-container">
-			<h2 class="my-work-heading">My Work</h2>
-			<div class="row">
-				<div class="col-12">
-					<div class="card-deck card-container">
-						<div class="card text-center bg-secondary text-white" style="width: 18rem;">
-							<a target="_blank" href="https://youtube.com">
-								<img class="card-img-top" src="assets/images/whiskeyDrop.PNG" alt="Card image cap">
+	<section>
+		<a id="my-work">
+			<div class="my-work-container">
+				<h2 class="my-work-heading">My Work</h2>
+				<div class="row">
+					<div class="col-12">
+                    <!--Cards from bootstrap  -->
+						<div class="card-deck card-container">
+							<div class="card text-center bg-secondary text-white" style="width: 18rem;">
+								<a target="_blank" href="https://youtube.com">
+									<img class="card-img-top" src="assets/images/whiskeyDrop.PNG" alt="Card image cap">
                     </a>
-								<div class="card-body">
-									<p class="card-text">Some quick example text to build on the card title and make up
-										the
-										bulk of
-										the card's content.</p>
-								</div>
-						</div>
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make
+											up
+											the
+											bulk of
+											the card's content.</p>
+									</div>
+							</div>
 
 
 
-						<div class="card text-center bg-secondary text-white" style="width: 18rem;">
-							<a target="_blank" href="https://youtube.com">
-								<img class="card-img-top" src="assets/images/rosie.PNG" alt="Card image cap">
+							<div class="card text-center bg-secondary text-white" style="width: 18rem;">
+								<a target="_blank" href="https://youtube.com">
+									<img class="card-img-top" src="assets/images/rosie.PNG" alt="Card image cap">
                     </a>
-								<div class="card-body">
-									<p class="card-text">Some quick example text to build on the card title and make up
-										the
-										bulk of
-										the card's content.</p>
-								</div>
-						</div>
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make
+											up
+											the
+											bulk of
+											the card's content.</p>
+									</div>
+							</div>
 
 
 
-						<div class="card text-center bg-secondary text-white" style="width: 18rem;">
-							<a target="_blank" href="https://youtube.com">
-								<img class="card-img-top" src="assets/images/loveRunning.PNG" alt="Card image cap">
+							<div class="card text-center bg-secondary text-white" style="width: 18rem;">
+								<a target="_blank" href="https://youtube.com">
+									<img class="card-img-top" src="assets/images/loveRunning.PNG" alt="Card image cap">
                     </a>
-								<div class="card-body">
-									<p class="card-text">Some quick example text to build on the card title and make up
-										the
-										bulk of
-										the card's content.</p>
-								</div>
-						</div>
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make
+											up
+											the
+											bulk of
+											the card's content.</p>
+									</div>
+							</div>
 
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</a>
-    </section>
+		</a>
+	</section>
 
 	<hr>
 
-<!-- Contact Section -->
-    <section>
+	<!-- Contact Section -->
+	<section>
 		<a id="contact">
 			<div class="container-fluid contact-content-section contact-content">
 				<div class="row">
 					<div class="col-12">
 						<h2 class="contact-heading">Contact</h2>
 						<div class="contact-info-container">
-							<p class="contact-info">
-								Hi, My name is Aidan, and i am a full stack developer.
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-								unknown printer took a galley of type and scrambled it to make a type specimen book.
-								It has survived not only five centuries, but also the leap into electronic typesetting,
-								remaining essentially unchanged.
-								It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-								Ipsum
-								passages,
-								and more recently with desktop publishing software like Aldus PageMaker including
-								versions
-								of Lorem Ipsum.
-							</p>
+							<!-- form from bootstrap -->
+                            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+					<div class="form-group">
+						<label for="InputEmail">Email address</label>
+						<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="true">
+					</div>
+
+                    <div class="form-group">
+						<label for="InputName">Name</label>
+						<input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
+					</div>
+
+					<div class="form-group">
+						<label for="textarea">Message</label>
+						<textarea class="form-control" id="textarea" rows="3" required="true"></textarea>
+					</div>
+					<button type="submit" class="btn submit-button">Submit</button>
+				
+                </form>
 						</div>
 					</div>
 				</div>
@@ -292,11 +306,51 @@
 
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+<!-- Modal -->
+<!-- from bootstrap -->
+
+<div class="modal" tabindex="-1" role="dialog" id="contactModal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Contact Me</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+			</div>
+			<div class="modal-body">
+				<form class="modal-contact-form" action="https://formdump.codeinstitute.net/" method="post">
+					<div class="form-group">
+						<label for="modalInputEmail">Email address</label>
+						<input type="email" class="form-control" id="modalInputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="true">
+					</div>
+
+                    <div class="form-group">
+						<label for="modalInputName">Name</label>
+						<input type="name" class="form-control" id="modalInputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
+					</div>
+
+					<div class="form-group">
+						<label for="textarea">Message</label>
+						<textarea class="form-control" id="modalTextarea" rows="3" placeholder="Please write your message here" required="true"></textarea>
+					</div>
+					<button type="submit" class="btn submit-button">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Bootstrap JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
 </html>
