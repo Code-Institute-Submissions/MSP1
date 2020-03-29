@@ -165,7 +165,7 @@ body{
 
  
 
- /* ------------------------------Animation (source Youtube) */
+ /* ------------------------------Animation (source Youtube with my own slight edit) */
 
  .heading-text span{
      letter-spacing: -10px;
@@ -192,7 +192,7 @@ body{
  }
 
  @keyframes animate{
-     0%,100%{
+     0%,50%{
          color: #fff;
          filter: blur(2px);
          text-shadow: 0 0 10px #00b3ff,
