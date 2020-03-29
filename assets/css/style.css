@@ -307,6 +307,7 @@ body{
 }
 
 footer h5{
+    color: #707070;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -316,7 +317,7 @@ footer h5{
 /* ------------------------------Modal */
 
 .modal-content{
-    background-color: rgba(60,60,60,0.6);
+    background-color: #181818 /* rgba(60,60,60,0.8) */;
 }
 
 .modal-header,
