@@ -246,6 +246,7 @@ body{
  .about-heading,
  .my-work-heading,
  .contact-heading{
+     padding: 0;
     text-align: center !important;
   }
 }
