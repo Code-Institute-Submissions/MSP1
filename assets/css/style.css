@@ -88,15 +88,18 @@ body{
      color: #fafafa;
  }
  
-.about-content-section{
+.about-content-section,
+.skills-content-section,
+.contact-content-section{
     height: auto;
     margin-top: 100px;
-    /* display: inline; */
+    padding-bottom: 20px;
 }
 
 .skills-heading,
  .about-heading,
- .my-work-heading{
+ .my-work-heading,
+ .contact-heading{
      color: #707070;
      font-size: 100px;
      opacity: .3;
@@ -122,12 +125,6 @@ body{
      z-index: 1;
      color: #707070;
  }
-
-.skills-content-section{
-    height: auto;
-    margin-top: 100px;
-    /* display: inline; */
-}
 
 .progress-bar{
     background-color: #00b3ff;
@@ -220,13 +217,14 @@ body{
 }
 
 .social-links li i:hover{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -webkit-transition: all 0.5s ease-in-out;
     color: #00b3ff;
 }
 
 .card:hover{
     transform: scale(1.1);
-    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.25); */
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 /* ------------------------------Media Query */
@@ -264,7 +262,8 @@ body{
 
 /* ------------------------------My Work */
 .my-work-container{
-    padding: 20px;
+    margin-top: 100px;
+    padding: 0 20px 20px 20px;
     height: auto;
 }
 
@@ -286,16 +285,20 @@ body{
 /* ------------------------------Footer */
 
 .footer-container{
+    background-color: #181818;
     text-align: center;
     letter-spacing: 4px;
     font-size: 25px;
+    height: 110px;
 }
 
 .social-links li i{
     color: #707070;
 }
 
-.social-links li i:hover{
-    transform: scale(1.2);
-    color: #00b3ff;
+footer h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
 }
