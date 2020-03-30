@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
 	<title>My Portfolio</title>
 </head>
 
@@ -38,7 +39,7 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#my-work">My Work</a>
 				</li>
-                <li class="nav-item">
+				<li class="nav-item">
 					<a class="nav-link" href="#contact">Contact Me</a>
 				</li>
 			</ul>
@@ -60,7 +61,10 @@
 					<p class="underwriting">HTML / CSS </p>
 
 					<button class="btn contact-button" data-toggle="modal" data-target="#contactModal">Contact Me</button>
-
+					<div class="cv">
+						<a target="_blank" href="assets/cv/aidan-thorpe-cv.rtf">Download CV
+							<i class="fa fa-download"></i></a>
+					</div>
 					<!-- <a href="#contact" class="btn contact-button" role="button">Contact Me</a> -->
 
 					<div class="arrow-link">
@@ -82,18 +86,19 @@
 						<h2 class="about-heading">About</h2>
 						<div class="about-me-info-container">
 							<p class="about-me-info">
-								Hi, My name is Aidan, and i am a full stack developer.
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-								unknown printer took a galley of type and scrambled it to make a type specimen book.
-								It has survived not only five centuries, but also the leap into electronic typesetting,
-								remaining essentially unchanged.
-								It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-								Ipsum
-								passages,
-								and more recently with desktop publishing software like Aldus PageMaker including
-								versions
-								of Lorem Ipsum.
+								<span class="info-header">WHAT DO I DO?</span>
+								I'm a skilled Full Stack Developer with a wealth of diverse life and technical
+								experience that i bring to every project.
+
+								<span class="info-header">HOW DO I DO IT?</span>
+								I follow form as well as function. I know that the aesthetics of effective design
+								combined with application speed, security and reliability combine to create a great user
+								experience.
+
+								<span class="info-header">WHY HIRE ME?</span>
+								I work quickly and effectively in getting things built and working across the stack. I'm
+								an excellent communicator who thrives in bright and enthusiastic teams and I'm also a
+								self starter when working solo.
 							</p>
 						</div>
 					</div>
@@ -114,18 +119,13 @@
 						<h2 class="skills-heading">Skills</h2>
 						<div class="skills-container">
 							<p class="skills-info">
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-								has been
-								the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-								galley
-								of type and scrambled it to make a type specimen book. It has survived not only five
-								centuries,
-								but also the leap into electronic typesetting, remaining essentially unchanged. It was
-								popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-								passages,
-								and more recently with desktop publishing software like Aldus PageMaker including
-								versions of
-								Lorem Ipsum
+								<span class="info-header">FRONT END</span>
+								I'm skilled in User Experience Design using the trinity of HTML/CSS/JavaScript.
+
+								<span class="info-header">BACK END</span>
+								I specialize in data-driven web applications. Many of my projects utilise document-based
+								data. I use Python and Django in conjunction with MongoDB to process and present
+								information.
 							</p>
 						</div>
 
@@ -159,18 +159,15 @@
 				<h2 class="my-work-heading">My Work</h2>
 				<div class="row">
 					<div class="col-12">
-                    <!--Cards from bootstrap  -->
+						<!--Cards from bootstrap  -->
 						<div class="card-deck card-container">
 							<div class="card text-center bg-secondary text-white" style="width: 18rem;">
 								<a target="_blank" href="https://aidant842.github.io/Whiskey-Drop/">
 									<img class="card-img-top" src="assets/images/whiskeyDrop.PNG" alt="Card image cap">
                     </a>
 									<div class="card-body">
-										<p class="card-text">Some quick example text to build on the card title and make
-											up
-											the
-											bulk of
-											the card's content.</p>
+										<p class="card-text">A wesbite built for a whiskey company called Whiskey Drop,
+											developed during code institutes full stack developer course. </p>
 									</div>
 							</div>
 
@@ -181,11 +178,8 @@
 									<img class="card-img-top" src="assets/images/rosie.PNG" alt="Card image cap">
                     </a>
 									<div class="card-body">
-										<p class="card-text">Some quick example text to build on the card title and make
-											up
-											the
-											bulk of
-											the card's content.</p>
+										<p class="card-text">A Résumé website built during code institues full stack
+											developer course.</p>
 									</div>
 							</div>
 
@@ -196,11 +190,8 @@
 									<img class="card-img-top" src="assets/images/loveRunning.PNG" alt="Card image cap">
                     </a>
 									<div class="card-body">
-										<p class="card-text">Some quick example text to build on the card title and make
-											up
-											the
-											bulk of
-											the card's content.</p>
+										<p class="card-text">A fitness website built during code institues CSS
+											funamentals module of the full stack developer course.</p>
 									</div>
 							</div>
 
@@ -220,26 +211,33 @@
 				<div class="row">
 					<div class="col-12">
 						<h2 class="contact-heading">Contact</h2>
+						<div class="personal-info">
+							<h3>Personal Info</h3>
+							<p>Name:&nbsp; Aidan Thorpe</p>
+							<p>Email:&nbsp; Aidant842@gmail.com</p>
+							<p>Phone:&nbsp; 0851699108</p>
+						</div>
 						<div class="contact-info-container">
 							<!-- form from bootstrap -->
-                            <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post">
-					<div class="form-group">
-						<label for="InputEmail">Email address</label>
-						<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="true">
+							<form class="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+								<h3>Let's Work Together!</h3>
+								<div class="form-group">
+									<label for="InputEmail">Email address</label>
+									<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="true">
 					</div>
 
-                    <div class="form-group">
-						<label for="InputName">Name</label>
-						<input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
+									<div class="form-group">
+										<label for="InputName">Name</label>
+										<input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
 					</div>
 
-					<div class="form-group">
-						<label for="textarea">Message</label>
-						<textarea class="form-control" id="textarea" rows="3" required="true"></textarea>
-					</div>
-					<button type="submit" class="btn submit-button">Submit</button>
-				
-                </form>
+										<div class="form-group">
+											<label for="textarea">Message</label>
+											<textarea class="form-control" id="textarea" rows="3" required="true"></textarea>
+										</div>
+										<button type="submit" class="btn submit-button">Submit</button>
+
+							</form>
 						</div>
 					</div>
 				</div>
@@ -302,6 +300,7 @@
 
 
 		</ul>
+
 	</div>
 
 </footer>
@@ -325,16 +324,16 @@
 						<input type="email" class="form-control" id="modalInputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="true">
 					</div>
 
-                    <div class="form-group">
-						<label for="modalInputName">Name</label>
-						<input type="name" class="form-control" id="modalInputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
+						<div class="form-group">
+							<label for="modalInputName">Name</label>
+							<input type="name" class="form-control" id="modalInputName" aria-describedby="nameHelp" placeholder="Enter name" required="true">
 					</div>
 
-					<div class="form-group">
-						<label for="textarea">Message</label>
-						<textarea class="form-control" id="modalTextarea" rows="3" placeholder="Please write your message here" required="true"></textarea>
-					</div>
-					<button type="submit" class="btn submit-button">Submit</button>
+							<div class="form-group">
+								<label for="textarea">Message</label>
+								<textarea class="form-control" id="modalTextarea" rows="3" placeholder="Please write your message here" required="true"></textarea>
+							</div>
+							<button type="submit" class="btn submit-button">Submit</button>
 				</form>
 			</div>
 		</div>
