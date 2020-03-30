@@ -22,11 +22,12 @@ body{
 
  .navbar-brand{
      color: #707070 !important;
-     font-weight: 700;
+     font-weight: 100;
      font-size: 36px;
-     font-family: "PT Sans", sans-serif;
+     font-family: "Montserrat", sans-serif;
      padding-left: 20px;
-     letter-spacing: 4px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
  }
 
 
@@ -180,6 +181,8 @@ body{
      text-align: center;
  }
 
+ 
+
 /* ------------------------------Main Content */
 
  .main-content-section{
@@ -275,6 +278,10 @@ body{
  .contact-heading{
      padding: 0;
     text-align: center !important;
+  }
+
+  .navbar-brand{
+      padding: 0;
   }
 }
 
