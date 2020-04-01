@@ -12,7 +12,7 @@ All buttons and calls to action have hover effects to let the user know they are
 Main Content area has an eyecatching animation to grab the users attention.
 
 attatched is a link to a wireframe i mocked up as a base for my website
-[a relative link](wireframe/Portfolio-wireframe.pdf) 
+[Project Wireframe](wireframe/wireframe.pdf) 
 
 ## Features
 

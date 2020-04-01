@@ -283,6 +283,10 @@ body{
   .navbar-brand{
       padding: 0;
   }
+
+  .main-content{
+      padding-top: 10px;
+  }
 }
 
 /* ------------------------------Skills */
