@@ -54,7 +54,7 @@ body{
      width: 120px;
      margin-left: auto;
      margin-right: auto;
-     background-color: #fafafa;
+     background-color: #00b3ff;
      opacity: 0.7;
  }
 
@@ -149,7 +149,8 @@ body{
     margin: 10px 0;
     font-weight: 600;
     font-size: 17px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: #00b3ff;
 }
 
 /* .skills-heading{
@@ -242,15 +243,20 @@ body{
 
 .social-links li i:hover,
 .cv a:hover,
-.arrow-link i:hover{
+.arrow-link i:hover,
+{
     -webkit-transform: scale(1.2);
     -webkit-transition: all 0.5s ease-in-out;
     color: #00b3ff;
 }
 
-.card:hover,
-.submit-button:hover{
+.card:hover,{
     transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.submit-button:hover{
+    background-color: #00b3ff;
+    color: white;
     -webkit-transition: all 0.5s ease-in-out;
 }
 
@@ -330,6 +336,10 @@ body{
     border: none !important;
 }
 
+.card-title{
+    color: #00b3ff;
+}
+
 
 /* ------------------------------Footer */
 
@@ -346,7 +356,7 @@ body{
 }
 
 footer h5{
-    color: #fafafa;
+    color: #00b3ff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -393,6 +403,7 @@ footer h5{
 .contact-form h3{
     text-align: center;
     padding-bottom: 20px;
+    color: #00b3ff;
 }
 
 .personal-info{
