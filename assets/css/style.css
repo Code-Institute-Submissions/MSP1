@@ -38,7 +38,7 @@ body{
     position: relative;
     text-align: center;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 20px;
  }
 
  .heading-text{
@@ -98,7 +98,7 @@ body{
 .skills-content-section,
 .contact-content-section{
     height: auto;
-    margin-top: 100px;
+    margin-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -126,12 +126,9 @@ body{
  .about-me-info{
      max-width: 900px;
      background-color: #181818;
-     /* background-color: #252627; */
      box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.6);
      padding: 50px;
      margin-top: 50px;
-     /* display: flex;
-     justify-content: center; */
      text-align: center;
      z-index: 1;
      color: #fafafa;
@@ -149,17 +146,10 @@ body{
     margin: 10px 0;
     font-weight: 600;
     font-size: 17px;
-    /* text-decoration: underline; */
     color: #00b3ff;
 }
 
-/* .skills-heading{
-    color: #fafafa;
-     font-size: 100px;
-     opacity: .3;
-     z-index: 0;
-     padding-left: 20px;
-} */
+
 
 /* ------------------------------Nav Bar */
 
@@ -310,13 +300,12 @@ body{
     letter-spacing: 0.5px;
     padding: 4px 30px 4px 20px;
     color: #fafafa;
-    /* background-color: #00b3ff/* rgba(25, 25, 25, 0.2) ;*/
 }
 
 
 /* ------------------------------My Work */
 .my-work-container{
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 0 20px 20px 20px;
     height: auto;
 }
