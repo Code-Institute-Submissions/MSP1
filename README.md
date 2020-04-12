@@ -52,8 +52,8 @@ https://gitpod.io/  https://github.com/
 
 To test this i used Developer tools, two phones, and an external user (a friends phone).
 on both developer tools and one of my phone the page responded well and everything worked as it should.
-However on my phone and my friends phone (Galaxy s9 and Galaxy s8 respectively) the headers for each section were partially display off-screen.
-I believe this was due to these phones having beveled edges.
+However on my phone and my friends phone (Galaxy s9 and Galaxy s8 respectively) the headers for each section were partially displayed off-screen.
+I believe this was possibly due to these phones having beveled edges.
 To solve this issue i used a media query to remove padding and center align the headings which pulled the headings in nicely.
 
 
@@ -82,7 +82,7 @@ and github provides a link to where the page is hosted.
 
 * About/Skills section- I used the about and skills info from the Rosie Résumé page made by Code Institute.
 
-* Animation- The highlighting animation used on my name made using CSS and HTML came from a youtube video which i tweaked slightly to what i desired.
+* Animation- The idea for the highlighting animation used on my name made using CSS and HTML came from a youtube video which i tweaked to what i desired.
 
 * Structural Layout/components- I used BootStrap in the making of this website. https://www.getbootstrap.com
 

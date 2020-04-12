@@ -6,7 +6,8 @@ html{
 
 /* ------------------------------Colours/Fonts/Sizing/Alignment */
 body{
-    background-color:#252627;
+    /* background-color: #252627; */
+    background-color: green;
 }
 
 .bg-dark{

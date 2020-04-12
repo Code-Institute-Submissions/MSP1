@@ -1,39 +1,36 @@
-function sendMail(contactForm){
-
-    emailjs.send("aidant842_gmail_com", "portfolio", {
-        "from_name": contactForm.inputName.value,
-        "from_email": contactForm.inputEmail.value,
-        "project_request": contactForm.textArea.value
+function sendMail(name,email,request,form){
+    emailjs.send(
+        "aidant842_gmail_com",
+        "portfolio",
+        {
+                "from_name": name,
+                "from_email": email,
+                "project_request": request
+        }
+    )
     
-})
     .then(
-        function(response){
+        function (response){
             console.log("SUCCESS", response);
-            document.getElementById("contactForm").reset();
+            form.reset();
         },
-        function(error) {
+        function (error){
             console.log("ERROR", error);
-        
         });
-        return false;
 }
 
-function sendMail(contactForm){
-
-    emailjs.send("aidant842_gmail_com", "portfolio", {
-        "from_name": contactForm.modalInputName.value,
-        "from_email": contactForm.modalInputEmail.value,
-        "project_request": contactForm.modalTextArea.value
-    
-})
-    .then(
-        function(response){
-            console.log("SUCCESS", response);
-            document.getElementById("modalContactForm").reset();
-        },
-        function(error) {
-            console.log("ERROR", error);
-        
-        });
-        return false;
+if(document.getElementById("contactForm")){
+    sendMail(
+        contactForm.inputName.value,
+        contactForm.inputEmail.value,
+        contactForm.textArea.value,
+        document.getElementById("contactForm")
+    )
+}else{
+    sendMail(
+        modalContactForm.modalInputName.value,
+        modalContactForm.modalInputEmail.value,
+        modalContactForm.modalTextArea.value,
+        document.getElementById("modalContactForm")
+    )
 }
