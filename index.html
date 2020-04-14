@@ -14,8 +14,8 @@
 	<!-- css stylesheet -->
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<!-- emailJS -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script>
 		(function () {
 			emailjs.init("user_HGzUIQMhAaSaV2QQgTBMs");
 		})();
@@ -60,7 +60,7 @@
 
 	<!-- Main Content -->
 
-	<div class="container-fluid main-content main-content-section">
+	<div class="container main-content main-content-section">
 		<div class="row">
 			<div class="col-12">
 
@@ -71,16 +71,16 @@
 					<span>n</span>
 					,<br>Full Stack Developer.</h1>
 
-				<button class="btn contact-button" data-toggle="modal" data-target="#contactModal">Contact Me</button>
+					<button class="btn contact-button" data-toggle="modal" data-target="#contactModal">Contact Me</button>
 
-				<div class="cv">
-					<a target="_blank" href="assets/cv/aidan-thorpe-cv.pdf">Download CV
-						<i class="fa fa-download"></i></a>
-				</div>
+					<div class="cv">
+						<a target="_blank" href="assets/cv/aidan-thorpe-cv.pdf">Download CV
+							<i class="fa fa-download"></i></a>
+					</div>
 
-				<div class="arrow-link">
-					<a href="#my-work"><i class="fas fa-chevron-down"></i></a>
-				</div>
+					<div class="arrow-link">
+						<a href="#my-work"><i class="fas fa-chevron-down"></i></a>
+					</div>
 
 			</div>
 		</div>
@@ -92,7 +92,7 @@
 
 	<section id="myWork">
 		<a id="my-work"></a>
-		<div class="container-fluid my-work-container">
+		<div class="container my-work-container">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="my-work-heading">My Work</h2>
@@ -104,34 +104,34 @@
 							<a target="_blank" href="https://aidant842.github.io/LoveRunning/">
 								<img class="card-img-top" src="assets/images/running.png" alt="Card image cap">
 							</a>
-							<div class="card-body">
-								<h5 class="card-title">Love Running</h5>
-								<p class="card-text">A fitness website built during code institutes CSS
-									fundamentals module of the full stack developer course.</p>
-							</div>
+								<div class="card-body">
+									<h5 class="card-title">Love Running</h5>
+									<p class="card-text">A fitness website built during code institutes CSS
+										fundamentals module of the full stack developer course.</p>
+								</div>
 						</div>
 
 						<div class="card">
 							<a target="_blank" href="https://aidant842.github.io/UCD-R-sum-/">
 								<img class="card-img-top" src="assets/images/resume.png" alt="Card image cap">
 							</a>
-							<div class="card-body">
-								<h5 class="card-title">Résumé</h5>
-								<p class="card-text">A Résumé website built during code institutes full stack
-									developer course.</p>
+								<div class="card-body">
+									<h5 class="card-title">Résumé</h5>
+									<p class="card-text">A Résumé website built during code institutes full stack
+										developer course.</p>
 
-							</div>
+								</div>
 						</div>
 						<div class="card">
 							<a target="_blank" href="https://aidant842.github.io/Whiskey-Drop/">
 								<img class="card-img-top" src="assets/images/whiskey.png" alt="Card image cap">
 							</a>
-							<div class="card-body">
-								<h5 class="card-title">Whiskey Drop</h5>
-								<p class="card-text">A website built for a whiskey company called Whiskey Drop,
-									developed during code institutes full stack developer course.</p>
+								<div class="card-body">
+									<h5 class="card-title">Whiskey Drop</h5>
+									<p class="card-text">A website built for a whiskey company called Whiskey Drop,
+										developed during code institutes full stack developer course.</p>
 
-							</div>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -145,7 +145,7 @@
 	<!-- Skills Section -->
 	<section>
 		<a id="skills"></a>
-		<div class="container-fluid skills-content-section skills-content">
+		<div class="container skills-content-section skills-content">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="skills-heading">Skills</h2>
@@ -207,7 +207,7 @@
 	<!-- About Section -->
 	<section>
 		<a id="about"></a>
-		<div class="container-fluid about-content-section about-content">
+		<div class="container about-content-section about-content">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="about-heading">About</h2>
@@ -241,7 +241,7 @@
 	<!-- Contact Section -->
 	<section>
 		<a id="contact"></a>
-		<div class="container-fluid contact-content-section contact-content">
+		<div class="container contact-content-section contact-content">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="contact-heading">Contact</h2>
@@ -263,17 +263,17 @@
 									required>
 							</div>
 
-							<div class="form-group">
-								<label for="inputName">Name</label>
-								<input type="text" class="form-control" id="inputName" placeholder="Enter name"
+								<div class="form-group">
+									<label for="inputName">Name</label>
+									<input type="text" class="form-control" id="inputName" placeholder="Enter name"
 									required>
 							</div>
 
-							<div class="form-group">
-								<label for="textArea">Message</label>
-								<textarea class="form-control" id="textArea" rows="3" required></textarea>
-							</div>
-							<button type="submit" id="mainButton" class="btn submit-button">Submit</button>
+									<div class="form-group">
+										<label for="textArea">Message</label>
+										<textarea class="form-control" id="textArea" rows="3" required></textarea>
+									</div>
+									<button type="submit" id="mainButton" class="btn submit-button">Submit</button>
 
 						</form>
 					</div>
@@ -296,13 +296,6 @@
 					<a target="_blank" href="https://www.facebook.com/aidan.thorpe.1">
 						<i class="fab fa-facebook-f" aria-hidden="true"></i>
 						<span class="sr-only">Facebook</span>
-					</a>
-				</li>
-
-				<li class="list-inline-item">
-					<a target="_blank" href="https://www.linkedin.com/in/aidan-thorpe-99a8451a5/">
-						<i class="fab fa-twitter" aria-hidden="true"></i>
-						<span class="sr-only">twitter</span>
 					</a>
 				</li>
 
@@ -337,7 +330,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					
+
 					<form class="modal-contact-form" id="modalContactForm">
 						<div class="form-group">
 							<label for="modalInputEmail">Email address</label>
@@ -345,18 +338,18 @@
 								required>
 						</div>
 
-						<div class="form-group">
-							<label for="modalInputName">Name</label>
-							<input type="text" class="form-control" id="modalInputName" placeholder="Enter name"
+							<div class="form-group">
+								<label for="modalInputName">Name</label>
+								<input type="text" class="form-control" id="modalInputName" placeholder="Enter name"
 								required>
 						</div>
 
-						<div class="form-group">
-							<label for="modalTextArea">Message</label>
-							<textarea class="form-control" id="modalTextArea" rows="3"
+								<div class="form-group">
+									<label for="modalTextArea">Message</label>
+									<textarea class="form-control" id="modalTextArea" rows="3"
 								placeholder="Please write your message here" required></textarea>
-						</div>
-						<button type="submit" id="modalButton" class="btn submit-button">Submit</button>
+								</div>
+								<button type="submit" id="modalButton" class="btn submit-button">Submit</button>
 					</form>
 				</div>
 			</div>
@@ -367,13 +360,13 @@
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-		</script>
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-		</script>
+	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-		</script>
+	</script>
 
 	<!-- EmailJS script -->
 	<script src="assets/js/email.js"></script>

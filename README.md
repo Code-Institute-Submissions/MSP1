@@ -1,12 +1,13 @@
 # Milestone Project 1
 
-A website built to showcase what i've learned so far in the Code Institutes Full Stack Developer Course.
-This particular website is a personal portfolio page.
+A website built to showcase my work to date. Also give some detail about my skills and what i do.
+The page will also allow the user to make contact with me by providing personal info and contact sections which send to a personal email.
 
 ## UX
 
-This website was built for potential employers to get a quick and easy overview of me.
+This website was built for potential employers to get a quick and easy overview of me and my work.
 It was designed for ease of use, the layout is minimilist, but appealing making it easy and enjoyable to navigate.
+My work section was placed first after the landing area to keep the users attention focused on the goal of the page.
 All information is kept, short and straight to the point to make it more digestable to the reader.
 All buttons and calls to action have hover effects to let the user know they are useable and look more appealing.
 Main Content area has an eyecatching animation to grab the users attention.
@@ -73,7 +74,7 @@ Click any button or link on the page and it will work correctly and as it should
 
 I used GitHub Pages to deploy my webpage, and other pages that are linked on the website.
 
-To do this i went to each corresponding repository, went into settings, scrolled down to GitHub Pages, slected the master brach,
+To do this i went to each corresponding repository, went into settings, scrolled down to GitHub Pages, selected the master brach,
 and github provides a link to where the page is hosted.
 
 ## Credits
