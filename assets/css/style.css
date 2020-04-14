@@ -17,6 +17,8 @@ body{
      text-transform: uppercase;
      font-family: "Monsterrat", sans-serif;
      font-size: 14px;
+     height: 36.8px;
+     box-sizing: border-box;
      padding-right: 30px;
  }
 
@@ -178,7 +180,7 @@ body{
 
  
 
- /* ------------------------------Animation (source Youtube with my own slight edit) */
+ /* ------------------------------Animation (source Youtube with my own edit) */
 
  .heading-text span{
      letter-spacing: -10px;
