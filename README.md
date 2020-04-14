@@ -63,7 +63,9 @@ To solve this issue i used a media query to remove padding and center align the 
 1. Go to the "Contact" section of the page
 2. Try to submit the empty form and verify that an error message about the required fields appears
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that a success message appears.
+4. Try to submit the form with all inputs valid and verify that the form resets and email sent.
+
+once the form resets an email has been sent, tested for both modal and main contact sectoin, from both myself and external users.
 
 ### links
 
